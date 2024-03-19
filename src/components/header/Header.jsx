@@ -2,7 +2,6 @@ import React from 'react'
 import { IoIosNotifications } from "react-icons/io";
 import { MdLightMode } from "react-icons/md";
 import { PiShoppingCartBold } from "react-icons/pi";
-import { GrScorecard } from "react-icons/gr";
 import Logo from "../../assets/logo.svg"
 const Header = () => {
   return (
