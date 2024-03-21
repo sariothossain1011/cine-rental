@@ -7,7 +7,7 @@ import { ThemeContext } from "./context";
 const Page = () => {
     const{darkMode}= useContext(ThemeContext);
   return (
-    <div div className={`h-full w-full ${darkMode ? "dark":""}`}>
+    <div className={`h-full w-full ${darkMode ? "dark":""}`}>
         <Header />
         <div className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
           <Sidebar />
